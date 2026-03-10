@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ESNext", 
+    "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "bundler",
     "moduleDetection": "force",
     "allowImportingTsExtensions": true,
     "noEmit": true,
-    // ... el resto se queda igual
+    "strict": true,
+    "skipLibCheck": true,
+    "types": ["bun-types"] 
   }
 }
